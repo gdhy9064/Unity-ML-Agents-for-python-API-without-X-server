@@ -6,7 +6,7 @@
 - A server without X server and root access, mine is one which provides Jupyter Lab only.
 
 ## Preparations
-1. Ubuntu rootfs where Xvfb is installed. 
+1. [Ubuntu rootfs](https://drive.google.com/file/d/1tUv06pQkeH-GTSIhlKJJrd4kEIxlNGD8/view?usp=sharing) where Xvfb is installed. 
 2. ML-Agents environment binary for testing.
 3. [Static proot binary](https://github.com/proot-me/proot-static-build/releases/download/v5.1.1/proot_5.1.1_x86_64_rc2).
 
