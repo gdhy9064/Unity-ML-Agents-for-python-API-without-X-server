@@ -1,6 +1,6 @@
 # Unity ML-Agents for python mlagents API without X server
 ## Background
-&ensp;&ensp;As we know, the environments of Unity ML-Agents are always along with GUI, which is hardly to run in the servers which are without X server when we don't have root access. Here I find a way to run ML-Agents with two tools, [Proot](https://proot-me.github.io/) and Xvfb.
+&ensp;&ensp;As we know, the environments of Unity ML-Agents are always along with GUI, which are hardly to run in the servers without X server when we don't have root access. Here I find a way to run ML-Agents with two tools, [Proot](https://proot-me.github.io/) and Xvfb.
 
 ## Environment
 - A server without X server and root access, mine is one which provides Jupyter Lab only.
@@ -37,4 +37,4 @@ engine_configuration_channel = EngineConfigurationChannel()
 env = UnityEnvironment(file_name=env_name, base_port=5004)
 env.reset()
 ```
-7. Enjoy it :).
+7. Enjoy it : ).
